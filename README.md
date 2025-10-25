@@ -17,7 +17,7 @@ VS Code расширение для быстрой вставки текущей
 ### Установка
 
 1. Скачайте файл `date-inserter-1.0.0.vsix`
-2. В VS Code: Extensions → ... → Install from VSIX
+2. В VS Code: Extensions -> ... -> Install from VSIX
 3. Выберите скачанный файл
 
 ### Использование
@@ -25,7 +25,7 @@ VS Code расширение для быстрой вставки текущей
 1. Откройте текстовый файл
 2. Установите курсор в нужную позицию
 3. Вызовите команду через:
-   - `Ctrl+Shift+P` → "Date: Insert Current Date"
+   - `Ctrl+Shift+P` -> "Date: Insert Current Date"
    - Или `Ctrl+Shift+D`
 
 ### Пример
