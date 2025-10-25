@@ -1,0 +1,30 @@
+{
+    "name": "date-inserter",
+    "displayName": "Date Inserter",
+    "description": "Плагин для вставки текущей даты", 
+    "version": "1.0.0",
+    "publisher": "YourName",
+    "engines": {
+        "vscode": "^1.60.0"
+    },
+    "activationEvents": [
+        "onCommand:date.insert"
+    ],
+    "main": "./extension.js", 
+    "contributes": {
+        "commands": [
+            {
+                "command": "date.insert",
+                "title": "Date: Insert Current Date"
+            }
+        ],
+        "keybindings": [
+            {
+                "command": "date.insert",
+                "key": "ctrl+shift+d",
+                "when": "editorTextFocus"
+            }
+        ]
+    }
+}
+
